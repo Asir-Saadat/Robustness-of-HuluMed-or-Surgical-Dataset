@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights — never commit these
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+checkpoints/
+weights/
+
+# HuggingFace cache
+~/.cache/huggingface/
+
+# SLURM logs
+*.err
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large video/image data — frames live on cluster, not in repo
+*.mp4
+*.avi
+*.mov
+chole80_framed/
